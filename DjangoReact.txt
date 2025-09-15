@@ -1,0 +1,12 @@
+
+
+--- Django setup ----
+
+Virtual env setup
+
+1. Create virtual environment ---> python -m venv venv
+2. Activate the env           ---> .\venv\Scripts\activate
+3. Install required packages
+    pip install django djangorestframework
+4. Create a new project dot at the end means in current directry       ---> django-admin startproject core .
+5. Run the project            ---> python manage.py runserver
